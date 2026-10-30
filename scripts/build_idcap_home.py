@@ -88,7 +88,7 @@ dialog#aviso-modal[open]{animation:avpop .28s cubic-bezier(.2,.8,.25,1)}
   <div class="av-card">
     <img class="av-logo" src="__LOGO__" alt="Instituto IDCAP" />
     <h2 id="aviso-modal-title">Aviso importante</h2>
-    <p>As inscrições para o Concurso Público 001/2026 da Secretaria de Estado da Administração do Amapá (SEAD) encerram-se no dia <strong>29/10/2026</strong>, às <strong>23h59</strong> (horário de Brasília).</p>
+    <p>As inscrições para o Concurso Público 001/2026 da Secretaria de Estado da Administração do Amapá (SEAD) encerram-se no dia <strong>30/10/2026</strong>, às <strong>23h59</strong> (horário de Brasília).</p>
     <button type="button" class="av-btn" id="aviso-modal-ok" data-testid="aviso-importante-ok">OK, entendi</button>
   </div>
 </dialog>

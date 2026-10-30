@@ -30,7 +30,7 @@ R = [
     ('content="Cebraspe"', 'content="IDCAP"'),
     ('sac@cebraspe.org.br', 'atendimento@idcap.org.br'),
     ('17/09/2026', '08/10/2026'),
-    ('21/10/2026', '29/10/2026'),
+    ('21/10/2026', '30/10/2026'),
     ('data-price="300.00"', 'data-price="90.00"'),
     ('var __v = 300;', 'var __v = 90;'),
     ('storedValor = 300;', 'storedValor = 90;'),

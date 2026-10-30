@@ -2081,7 +2081,7 @@ async def lembrete_individual(cpf: str, request: Request, user=Depends(require_a
         nome=d.get('nome', ''), cpf=d.get('cpf', ''), protocolo=d.get('protocolo', ''),
         cargo=d.get('cargo_titulo', '') or d.get('cargo_codigo', ''), concurso='',
         valor=d.get('valor') or VALOR_INSCRICAO, base_url=_site_base_url(request),
-        lembrete_prazo='29/10/2026, às 23h59 (horário de Brasília)',
+        lembrete_prazo='30/10/2026, às 23h59 (horário de Brasília)',
     )
     ok = await try_send_email(to=d['email'], subject='Lembrete: sua inscrição está pendente de pagamento', html=html)
     if not ok:

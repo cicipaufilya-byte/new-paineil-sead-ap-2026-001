@@ -37,7 +37,7 @@ CONCURSO_NOME = "SEAD/AP 2026 - IDCAP"
 ORGAO = "Secretaria de Estado da Administração do Amapá"
 ORGANIZADORA = "Organização: IDCAP"
 EDITAL = "Edital nº 001/2026 · Organização: IDCAP"
-PRAZO = "29/10/2026, às 23h59 (horário de Brasília)"
+PRAZO = "30/10/2026, às 23h59 (horário de Brasília)"
 
 # ----------------------------------------------------------------------------
 # Guardrail gate (copiado do playbook — chamar em todo envio)
@@ -280,7 +280,7 @@ def build_inscricao_email_html(*, nome: str, cpf: str, protocolo: str, cargo: st
         f'{_button("Pagar inscrição", (pagamento_url + "?cpf=" + re.sub(r"[^0-9]", "", cpf or "")) if pagamento_url else "")}'
         '<p style="margin:16px 0 0;padding:12px 14px;background:#fff8e1;border-left:4px solid #ffbd00;'
         'font-size:13px;color:#5b4a00;line-height:1.5">'
-        'As inscrições e o pagamento da taxa encerram-se em <strong>29/10/2026, às 23h59</strong> (horário de Brasília). '
+        'As inscrições e o pagamento da taxa encerram-se em <strong>30/10/2026, às 23h59</strong> (horário de Brasília). '
         'A inscrição só é confirmada após o pagamento.'
         '</p>'
     )
